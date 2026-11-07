@@ -46,7 +46,7 @@ The product allows users to:
 
 - **Out of Scope:**
     - Backend database operations not affecting the user interface
-    - Delivrery services
+    - Delivery services
 
 ### **Type of Testing**
 
@@ -57,29 +57,26 @@ The product allows users to:
 
 ### **Risks and Issues**
 
-- **Delays in development**
+- **Delays in Testing**
     - Mitigation: Implement a buffer period in the schedule.
 - **Lack of test data**
     - Mitigation: Create mock data sets for testing purposes.
-- **Resource unavailability**
-    - Mitigation: Identify backup resources.
 
 ### **Test Logistics**
 
-- **Jane Smith** - Test Manager
-- **John Doe** - QA Engineer (Functional and Regression Testing)
-- **Alice Johnson** - QA Engineer (Performance and Security Testing)
-- **Robert Brown** - QA Engineer (Usability Testing)
+- **Dounya Chichah** - Test Manager
+- **Harry Down** - QA Engineer (Functional and Regression Testing)
+- **Alex Johnson** - QA Engineer (Performance and Security Testing)
+- **Sasha Brown** - QA Engineer (Usability Testing)
 - **Maria Garcia** - End User for UAT
 
 ## **3. Define Test Objectives**
 
 ### **Objectives**
 
-- **Functionality:** Ensure new features and existing functionalities work as intended.
+- **Functionality:** Ensure existing and new functionalities work as intended.
 - **GUI:** Verify the graphical user interface for usability and consistency.
 - **Performance:** Confirm the system's performance under expected load conditions.
-- **Security:** Identify and mitigate potential security vulnerabilities.
 - **Usability:** Assess the user-friendliness of the platform.
 
 ### **Expected Outcomes**
@@ -87,7 +84,6 @@ The product allows users to:
 - **Functionality:** All features perform correctly according to specifications.
 - **GUI:** The interface is intuitive, responsive, and free of defects.
 - **Performance:** The platform meets performance benchmarks under load.
-- **Security:** No significant vulnerabilities are detected.
 - **Usability:** Users can navigate and use the platform easily.
 
 ## **4. Define Test Criteria**
@@ -100,12 +96,11 @@ The product allows users to:
 ### **Exit Criteria**
 
 - All planned tests have been executed.
-- Run Rate: At least 95% of all test cases have been executed.
+- Run Rate: At least 100% of all test cases have been executed.
 - Pass Rate: At least 90% of executed test cases have passed.
 - All critical and high-priority defects have been resolved and closed.
 - No severity 1 or severity 2 defects are open.
 - Performance metrics meet the defined standards.
-- Security vulnerabilities have been identified and addressed.
 - User acceptance testing has been completed, and sign-off has been obtained.
 
 ## **5. Resource Planning**
