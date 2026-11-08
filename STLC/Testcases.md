@@ -1,11 +1,15 @@
 ### Test case design**
 **1. Age Restriction for alcohol**
 Test Design Techniques: BVA, EP, Error guessing
-
+1. **Boundary Value Analysis**:
+    - **Test Case**: Verify 
+        - **Input**: Date of Birth = (Today - 16 years)
+        - **Expected Outcome**: Account creation successful.
 **2. Filtering by pricing**
 Test Design: Decision table, Error guessing
 
-**3. 
+**3. 10% Discount on total of 100 Euros or more**
+Test Design: BVA, EP, Error guessing
 
 
 ### Test Cases:
