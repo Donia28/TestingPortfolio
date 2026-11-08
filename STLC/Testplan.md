@@ -113,7 +113,7 @@ The product allows users to:
 ## **6. Plan Test Environment**
 
 - **Test Environments:** Real devices installed with real browsers and operating systems to simulate user conditions.
-- **Environments:** Development (DEV), Testing (TEST), Acceptance (ACC), Production (PROD)
+- **Environments:** Development (DEV), Testing (TEST), Acceptance (ACC)
 
 ## **7. Schedule and Estimation**
 
