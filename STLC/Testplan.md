@@ -22,28 +22,28 @@ The website is designed to be accessible to individuals of all age groups. All u
 
 The product allows users to:
 
-- Register and log in
-- Browse in all the grocery sections (Except alcohol section for users under 18)
-- select their desired product quantities and add/remove them to/from the shopping cart
-- Pay with Card
-- Filter by pricing
-- Place their favourite items into "Favourites"
-- Contact the costumer service 
-- search for products on the website
+-  Register and log in
+-  Browse in all the grocery sections (Except alcohol section for users under 18)
+-  Filter by pricing
+-  Place their favourite items into "Favourites"
+-  Register and login functionality
+-  Searching for products, sorting on price, categories of products
+-  Add products to favorites
+-  Add products to basket
+-  Check-out process: billing and sending information in a form, choose payment method. Calculation of costs (calculate total price)
   
 ## **2. Design the Test Strategy**
 
 ### **Scope of Testing**
 
 - **In Scope:**
-    - Register and login functionality
     - Age restriction for alcohol products
-    - Add favourite items in 'Favorites' section
     - Filter items by pricing
     - Add and remove items to/from the cart
     - Pay with Card
-    - Contact the costumer service
-
+    - Product Rating System
+    - Shipping cost change
+       
 - **Out of Scope:**
     - Backend database operations not affecting the user interface
     - Delivery services
