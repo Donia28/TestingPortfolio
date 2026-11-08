@@ -1,17 +1,18 @@
 ## Home work: Requirements
 **The assignment**
-****Write down which critical questions you can ask as a tester. Think of at least 3 questions per new feature. In the next session we will discuss these questions; after this you will receive the details of the requirements.
+Write down which critical questions you can ask as a tester. Think of at least 3 questions per new feature. 
+In the next session we will discuss these questions; after this you will receive the details of the requirements.
 The software
 You will test a webshop, which can be found here: https://grocerymate.masterschool.com/
-The webshop has the following basic functionalities:
+**The webshop has the following basic functionalities:**
 •	Register and login functionality
 •	Searching for products, sorting on price, categories of products
 •	Add products to favorites
 •	Add products to basket
 •	Check-out process: billing and sending information in a form, choose payment method. Calculation of costs (calculate total price)
-You are going to test the new developed features. The new features are written below.
-New features
-1. Product Rating System
+
+***New features***
+**1. Product Rating System**
 Requirement: Users should be able to rate products with a 5-star system and have the option to add written feedback.
 Questions:
 •	How should be verified that the rate is made by a human and not by a robot? 
@@ -20,7 +21,8 @@ Questions:
 •	Can the user rate as a guest without having an account?
 Detailed Requirement: 
 The user must have a valid account to rate a product. They may change their rating for a product no more than three times. Before submitting a rating, they must complete CAPTCHA verification.
-2. Age Verification for Alcoholic Products
+
+**2. Age Verification for Alcoholic Products**
 Requirement: Alcoholic products require age verification. A modal should appear when navigating to the alcoholic products category asking if the user is 18+. Users must input their age before accessing the alcoholic products.
 Questions:
 •	How should the age verification be implemented?
@@ -29,7 +31,8 @@ Questions:
 •	What should happen if the customer is underage? Should an error message appear, or should they be automatically redirected to the home page?
 Detailed requirement:
 When navigating in the alcoholic section a question about the birthday should appear in this form DD/MM/YY. Then the ID-Verification should be completed. If the costumer is underage (-18) an Error message should appear “You must be 18 or older to purchase alcohol. We’re unable to complete your purchase ”.
-3. Shipping Cost Changes
+
+**3. Shipping Cost Changes**
 Requirement: Free shipping for orders above a certain amount. Orders below this amount will incur a shipping fee.
 Questions:
 •	What is meant by “amount”? The Total price or the number of orders?
