@@ -1,10 +1,13 @@
 ### Title: Test report for GroceryMate Website Tests ###
 **Reporter: Dounya Chichah**
+
 **Date: 08.11.2026**
+
 **Test Object: https://grocerymate.masterschool.com/store**
+
 **Environment: Windows 11, Chrome Browser, Safari, Microsoft Edge**
 
-### Scenario 1: Valid Date of Birth
+### Scenario 1: User Age exactly 18
 
 As a user of GroceryMate, I am able to access the alcohol section when I am exactly 18 years old.
 | Step # | Action                           | Expected Outcome                                                                    | Actual Result                                                                         | OK/NOK |
@@ -17,7 +20,7 @@ As a user of GroceryMate, I am able to access the alcohol section when I am exac
 <img width="362" height="81" alt="image" src="https://github.com/user-attachments/assets/2a8aa335-6556-41b6-bdf0-7f85f8fd53d5" />
 
 
-### Scenario 2: Invalid Date of Birth
+### Scenario 2: User Age 
 
 As a user of GroceryMate, I am not able to sign up when I register with an invalid Date of Birth.
 
