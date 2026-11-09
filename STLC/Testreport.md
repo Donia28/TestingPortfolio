@@ -26,4 +26,7 @@ As a user of GroceryMate, I am not able to access the alcohol section when I am 
 |--------|----------------------------------|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|--------|
 | 1      | Go to GroceryMate                | Home page appears                                                                   | Home page appears                                                                     | OK     |
 | 2      | Select 'Shop' Page               | Age Verification appears                                                            | Age Verification appears                                                              | OK     |
-| 3      | Fill 09-11-2008 as Date of Birth | The message "You are of age. You can now view all products, even alcohol products."appears and the user can access the alcohol section  | The message "You are of age. You can now view all products, even alcohol products." appears and the user can access the alcohol section  | OK     |
+| 3      | Fill 10-11-2008 as Date of Birth | The message "You are underage. You can still browse the site, but you will not be able to view the alcohol products."appears and tthe alcohol section is empty  | The message "You are underage. You can still browse the site, but you will not be able to view the alcohol products."appears and tthe alcohol section is empty | OK     |
+
+<img width="470" height="125" alt="image" src="https://github.com/user-attachments/assets/2196a18f-8f9b-4c8e-8c57-252e52acb601" />
+<img width="548" height="532" alt="image" src="https://github.com/user-attachments/assets/1bf46ef8-1951-4b32-8cb3-fe066d61a4ac" />
