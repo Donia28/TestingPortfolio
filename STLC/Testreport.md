@@ -39,10 +39,27 @@ As a user of GroceryMate, I am not able to access the alcohol section when I am 
 | 2      | Select 'Shop' Page               | Age Verification appears                                                            | Age Verification appears                                                              | OK     |
 | 3      | Fill 08-11-2009 as Date of Birth | The message "You are underage. You can still browse the site, but you will not be able to view the alcohol products."appears and tthe alcohol section is empty  | The message "You are underage. You can still browse the site, but you will not be able to view the alcohol products."appears and tthe alcohol section is empty | OK     |
 
-### Scenario 3: User Age above 18
+### Scenario 4: User Age above 18
 As a user of GroceryMate, I am not able to access the alcohol section when I am just below 18 years old.
 | Step # | Action                           | Expected Outcome                                                                    | Actual Result                                                                         | OK/NOK |
 |--------|----------------------------------|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|--------|
 | 1      | Go to GroceryMate                | Home page appears                                                                   | Home page appears                                                                     | OK     |
 | 2      | Select 'Shop' Page               | Age Verification appears                                                            | Age Verification appears                                                              | OK     |
 | 3      | Fill 08-11-2000 as Date of Birth | The message "You are of age. You can now view all products, even alcohol products."appears and the user can access the alcohol section  | The message "You are of age. You can now view all products, even alcohol products." appears and the user can access the alcohol section  | OK     |
+
+### Scenario 5: Invalid date of birth
+As a user of GroceryMate, I am not able to access the alcohol section when I am just below 18 years old.
+| Step # | Action                           | Expected Outcome                                                                    | Actual Result                                                                         | OK/NOK |
+|--------|----------------------------------|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|--------|
+| 1      | Go to GroceryMate                | Home page appears                                                                   | Home page appears                                                                     | OK     |
+| 2      | Select 'Shop' Page               | Age Verification appears                                                            | Age Verification appears                                                              | OK     |
+| 3      | Fill ##-##-###  as Date of Birth | The message "Invalid date of birth."appears and the user cannot access the alcohol section  | The message "You are underage. You can still browse the site, but you will not be able to view the alcohol products." appears and the user can access the alcohol section  | NOK     |
+
+### Scenario 6: Empty date of birth
+As a user of GroceryMate, I am not able to access the alcohol section when I am just below 18 years old.
+| Step # | Action                           | Expected Outcome                                                                    | Actual Result                                                                         | OK/NOK |
+|--------|----------------------------------|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|--------|
+| 1      | Go to GroceryMate                | Home page appears                                                                   | Home page appears                                                                     | OK     |
+| 2      | Select 'Shop' Page               | Age Verification appears                                                            | Age Verification appears                                                              | OK     |
+| 3      | Click confirm without writing the date of birth | The message "Enter the date of birth."appears and the user cannot access the alcohol section  | The message "You are underage. You can still browse the site, but you will not be able to view the alcohol products." appears and the user can access the alcohol section  | NOK     |
+
